@@ -33,7 +33,7 @@ namespace Experiment
         public string participantID = "P01";
 
         [Tooltip("Task variant for this build")]
-        public TaskVariant taskVariant = TaskVariant.RoomView_Corridor;
+        public TaskVariant taskVariant = TaskVariant.BirdsEye_Corridor;
 
         [Header("References")]
         [SerializeField] private Camera _mainCamera;
